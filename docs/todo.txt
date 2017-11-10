@@ -1,0 +1,7 @@
+// todo: test  
+1. configLoader
+2. symbol 
+3. makeReel
+4. makeSlot
+5. singlePlayer
+6. multiPlayer
