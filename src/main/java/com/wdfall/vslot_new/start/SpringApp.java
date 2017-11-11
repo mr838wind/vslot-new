@@ -1,8 +1,9 @@
-package com.wdfall.vslot_new;
+package com.wdfall.vslot_new.start;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import com.wdfall.vslot_new.simulator.SlotSimulator;
 import com.wdfall.vslot_new.spring.SpringBootstrap;
 
 import lombok.extern.slf4j.Slf4j;
@@ -15,7 +16,7 @@ public class SpringApp {
 	SlotSimulator slotSimulator;
 
 	public void springMain() {
-		slotSimulator.startWithThread();
+		slotSimulator.start();
 	}
 
 	public static void main(String[] args) {
